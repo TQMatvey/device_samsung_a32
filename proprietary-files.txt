@@ -1,1 +1,14 @@
 # All blobs from a32xx-user 12 SP1A.210812.016 A325FXXU2BVD6 release-keys, unless pinned
+
+# NFC
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+vendor/bin/hw/sec.android.hardware.nfc@1.2-service
+vendor/etc/init/init.nfc.samsung.rc
+vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
+vendor/etc/libnfc-sec-vendor.conf
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin
+vendor/lib/libnxp_extamp_intf.so
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/nfc_nci_sec.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
