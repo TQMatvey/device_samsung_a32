@@ -18,4 +18,4 @@ export DEVICE=a32
 export DEVICE_COMMON=mt6769-common
 export VENDOR=samsung
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./device/${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
