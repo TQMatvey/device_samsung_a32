@@ -1,0 +1,1 @@
+# All blobs from a32xx-user 12 SP1A.210812.016 A325FXXU2BVD6 release-keys, unless pinned
