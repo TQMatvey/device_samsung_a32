@@ -7,6 +7,8 @@
 # Inherit from common
 $(call inherit-product, device/samsung/mt6769-common/mt6769.mk)
 
+DEVICE_PATH := device/samsung/a32
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \

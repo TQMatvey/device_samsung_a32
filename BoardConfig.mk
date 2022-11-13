@@ -15,5 +15,11 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
+# Display
+TARGET_SCREEN_DENSITY := 411
+
 # Inherit from the proprietary version
 include vendor/samsung/a32/BoardConfigVendor.mk
